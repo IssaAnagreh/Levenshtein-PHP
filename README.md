@@ -33,8 +33,7 @@ in browser: http://localhost:8000/openSooq.html
 ```
 ### Testing
 ```
-php -S localhost:8000 -t app
-in browser: http://localhost:8000/openSooq.html
+./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/test.php
 ```
 
 ### CLI
